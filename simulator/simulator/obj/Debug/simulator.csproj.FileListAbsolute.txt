@@ -1,0 +1,9 @@
+C:\Users\Milic\Desktop\logicka vrata simulator\simulator\simulator\bin\Debug\simulator.dll
+C:\Users\Milic\Desktop\logicka vrata simulator\simulator\simulator\bin\Debug\simulator.pdb
+C:\Users\Milic\Desktop\logicka vrata simulator\simulator\simulator\obj\Debug\simulator.csprojAssemblyReference.cache
+C:\Users\Milic\Desktop\logicka vrata simulator\simulator\simulator\obj\Debug\simulator.csproj.CoreCompileInputs.cache
+C:\Users\Milic\Desktop\logicka vrata simulator\simulator\simulator\obj\Debug\simulator.dll
+C:\Users\Milic\Desktop\logicka vrata simulator\simulator\simulator\obj\Debug\simulator.pdb
+C:\Users\Milic\Desktop\logicka vrata simulator\simulator\simulator\obj\Debug\simulator.UserControl1.resources
+C:\Users\Milic\Desktop\logicka vrata simulator\simulator\simulator\obj\Debug\simulator.csproj.GenerateResource.cache
+C:\Users\Milic\Desktop\logicka vrata simulator\simulator\simulator\obj\Debug\simulator.Resource1.resources
