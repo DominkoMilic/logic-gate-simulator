@@ -176,6 +176,8 @@ namespace simulator
                 nand[i].Location = new Point(350, 150);
                 nand[i].Tag = "nand" + i;
                 nand[i].Text = "";
+                nand[i].TextAlign = ContentAlignment.MiddleCenter;
+                nand[i].ForeColor = Color.FromArgb(224, 224, 224);
 
                 try
                 {
@@ -205,6 +207,8 @@ namespace simulator
                 nor[i].Location = new Point(350, 150);
                 nor[i].Tag = "nor" + i;
                 nor[i].Text = "";
+                nor[i].TextAlign = ContentAlignment.MiddleCenter;
+                nor[i].ForeColor = Color.FromArgb(224, 224, 224);
 
                 try
                 {
