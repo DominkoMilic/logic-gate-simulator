@@ -56,6 +56,7 @@
             this.Y_light = new simulator.CircularLabel();
             this.circularLabel1 = new simulator.CircularLabel();
             this.start = new System.Windows.Forms.Button();
+            this.Screenshot = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -338,12 +339,24 @@
             this.start.UseVisualStyleBackColor = true;
             this.start.Click += new System.EventHandler(this.start_Click);
             // 
+            // Screenshot
+            // 
+            this.Screenshot.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Screenshot.Location = new System.Drawing.Point(598, 2);
+            this.Screenshot.Name = "Screenshot";
+            this.Screenshot.Size = new System.Drawing.Size(100, 20);
+            this.Screenshot.TabIndex = 22;
+            this.Screenshot.Text = "SCREENSHOT";
+            this.Screenshot.UseVisualStyleBackColor = true;
+            this.Screenshot.Click += new System.EventHandler(this.Screenshot_Click);
+            // 
             // UserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.Screenshot);
             this.Controls.Add(this.start);
             this.Controls.Add(this.light_X1);
             this.Controls.Add(this.light_X2);
@@ -405,5 +418,6 @@
         private System.Windows.Forms.ToolStripMenuItem nIToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button start;
+        private System.Windows.Forms.Button Screenshot;
     }
 }
