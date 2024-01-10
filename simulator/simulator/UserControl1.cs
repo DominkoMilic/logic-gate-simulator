@@ -941,14 +941,12 @@ namespace simulator
         //screenshot forme
         private void Screenshot_Click(object sender, EventArgs e)
         {
-            // Get the bounds of the form relative to the screen
             Rectangle bounds = this.RectangleToScreen(this.ClientRectangle);
 
             Bitmap screenshot = new Bitmap(bounds.Width, bounds.Height);
 
             using (Graphics graphics = Graphics.FromImage(screenshot))
             {
-                // Copy the content of the form from the screen
                 graphics.CopyFromScreen(bounds.X, bounds.Y, 0, 0, bounds.Size);
             }
 
@@ -956,11 +954,10 @@ namespace simulator
             {
                 saveFileDialog.Title = "Save Screenshot";
                 saveFileDialog.Filter = "PNG Image|*.png";
-                saveFileDialog.FileName = "screenshot.png"; // Default filename
+                saveFileDialog.FileName = "screenshot.png";
 
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    // Save the screenshot with the specified filename and location
                     screenshot.Save(saveFileDialog.FileName);
                     MessageBox.Show($"Screenshot taken and saved as {saveFileDialog.FileName}");
                 }
